@@ -1,9 +1,11 @@
-# Travelsdin
+# Awais Zahid
 
-A social media web-app inspired by Linkedin.
+A dynamic social media platform designed to connect professionals and foster networking.
 
 For the project hosted in vercel: https://social-media-hazel-eta.vercel.app/#/
+
 Frontend: https://github.com/AwaisZahid331/social-media
+
 Backend: https://github.com/AwaisZahid331/social-media/tree/master
 
 # Technologies Used
@@ -34,7 +36,7 @@ Backend: https://github.com/AwaisZahid331/social-media/tree/master
 
 
 <a href="https://ibb.co/zGbQjhY"><img src="https://i.ibb.co/yW5dGn1/fb.png" alt="fb" border="0"></a>
-# Video
+
 
 
 
