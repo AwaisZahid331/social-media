@@ -1,0 +1,30 @@
+{
+  // "_id" : ObjectId("62ea127beb6ee5f8058fd56e"),
+  "username": "shlomi123",
+  "password": "$2b$10$fgsK0Yomf8Vdw3.bfIXJuOd/axCVx38HuYX9E.Bh7KS2Ik4kLd2zu",
+  "profession": "Full-Stack developer",
+  "fullname": "Shlomi Nugarker",
+  "isAdmin": false,
+  "age": 30,
+  "createdAt": 1659507323661.0,
+  "connections": [
+    {
+      "userId": "62f138ee9f531ee7a0a6f276",
+      "fullname": "eliya nugarker",
+      "connected": 4235353
+    },
+    {
+      "userId": "62f1fd355e2c0e39215035bb",
+      "fullname": "Michal Dam",
+      "connected": 42353353
+    }
+  ],
+  "following": [],
+  "followers": [],
+  "gender": "male",
+  "phone": "0529526762",
+  "birthDate": "1987-12-14",
+  "email": "sfs@dg.ngsdgfadf",
+  "bg": "https://images.unsplash.com/photo-1556262298-e85892643712?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+  "imgUrl": "http://res.cloudinary.com/duajg3ah1/image/upload/v1660763357/shlomiN_mewit4.jpg"
+}

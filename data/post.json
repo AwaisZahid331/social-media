@@ -1,0 +1,148 @@
+{
+  // "_id" : ObjectId("62fbfb3f09501d90f9fc4c9e"),
+  "userId": "62ea127beb6ee5f8058fd56e",
+  "title": "",
+  "body": "dsadfadgf",
+  "reactions": [
+    {
+      "userId": "62f1fd355e2c0e39215035bb",
+      "fullname": "Michal Dam",
+      "reaction": "like"
+    },
+    {
+      "userId": "62ea127beb6ee5f8058fd56e",
+      "fullname": "Shlomi Nugarker",
+      "reaction": "like"
+    },
+    {
+      "userId": "62f138ee9f531ee7a0a6f276",
+      "fullname": "Eliya Nugarker",
+      "reaction": "like"
+    }
+  ],
+  "createdAt": 1660681023611.0,
+  "imgBodyUrl": "",
+  "shares": [],
+  "comments": [
+    {
+      "_id": "cMhfclyTgm4VP05kpox4BUPl",
+      "userId": "62ea127beb6ee5f8058fd56e",
+      "postId": "62fbfb3f09501d90f9fc4c9e",
+      "txt": "f",
+      "reactions": [
+        {
+          "userId": "62ea127beb6ee5f8058fd56e",
+          "fullname": "Shlomi Nugarker",
+          "reaction": "like"
+        },
+        {
+          "userId": "62f201535e2c0e39215035bf",
+          "fullname": "Charlie Deets",
+          "reaction": "like"
+        },
+        {
+          "userId": "62f1fd355e2c0e39215035bb",
+          "fullname": "Michal Dam",
+          "reaction": "like"
+        }
+      ],
+      "replies": [
+        {
+          "_id": "einBo2l0VrrNeQu2tX9MtYW0",
+          "userId": "62f138ee9f531ee7a0a6f276",
+          "postId": "62fbfb3f09501d90f9fc4c9e",
+          "commentId": "cMhfclyTgm4VP05kpox4BUPl",
+          "txt": "dfgh",
+          "reactions": [],
+          "createdAt": 1660764565018.0
+        },
+        {
+          "_id": "Aip3Hs7nljYZMQWyECuzx3VZ",
+          "userId": "62f201535e2c0e39215035bf",
+          "postId": "62fbfb3f09501d90f9fc4c9e",
+          "commentId": "cMhfclyTgm4VP05kpox4BUPl",
+          "txt": ":)",
+          "reactions": [
+            {
+              "userId": "62ea127beb6ee5f8058fd56e",
+              "fullname": "Shlomi Nugarker",
+              "reaction": "like"
+            },
+            {
+              "userId": "62f138ee9f531ee7a0a6f276",
+              "fullname": "Eliya Nugarker",
+              "reaction": "like"
+            }
+          ],
+          "createdAt": 1660726074695.0
+        },
+        {
+          "_id": "A8aGqa0AUdwGjIHlrLGdwyx1",
+          "userId": "62ea127beb6ee5f8058fd56e",
+          "postId": "62fbfb3f09501d90f9fc4c9e",
+          "commentId": "cMhfclyTgm4VP05kpox4BUPl",
+          "txt": "dfgh",
+          "reactions": [
+            {
+              "userId": "62ea127beb6ee5f8058fd56e",
+              "fullname": "Shlomi Nugarker",
+              "reaction": "like"
+            }
+          ],
+          "createdAt": 1660725507798.0
+        }
+      ],
+      "createdAt": 1660724533161.0
+    },
+    {
+      "_id": "laJjJm8PPLYsKrUS97nv8iNU",
+      "userId": "62f201535e2c0e39215035bf",
+      "postId": "62fbfb3f09501d90f9fc4c9e",
+      "txt": "Good luck bro",
+      "reactions": [
+        {
+          "userId": "62f1fd355e2c0e39215035bb",
+          "fullname": "Michal Dam",
+          "reaction": "like"
+        },
+        {
+          "userId": "62ea127beb6ee5f8058fd56e",
+          "fullname": "Shlomi Nugarker",
+          "reaction": "like"
+        }
+      ],
+      "replies": [
+        {
+          "_id": "cYbAf0AWFJbtvOStbSrHx6bs",
+          "userId": "62f138ee9f531ee7a0a6f276",
+          "postId": "62fbfb3f09501d90f9fc4c9e",
+          "commentId": "laJjJm8PPLYsKrUS97nv8iNU",
+          "txt": "dfg",
+          "reactions": [],
+          "createdAt": 1660764559180.0
+        }
+      ],
+      "createdAt": 1660726053919.0
+    },
+    {
+      "_id": "CqcXaITiLKJ6j35FBpwjoOuO",
+      "userId": "62f1fd355e2c0e39215035bb",
+      "postId": "62fbfb3f09501d90f9fc4c9e",
+      "txt": "wow",
+      "reactions": [
+        {
+          "userId": "62f1fd355e2c0e39215035bb",
+          "fullname": "Michal Dam",
+          "reaction": "like"
+        },
+        {
+          "userId": "62ea127beb6ee5f8058fd56e",
+          "fullname": "Shlomi Nugarker",
+          "reaction": "like"
+        }
+      ],
+      "replies": [],
+      "createdAt": 1660726187575.0
+    }
+  ]
+}
