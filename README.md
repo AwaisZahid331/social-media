@@ -2,7 +2,7 @@
 
 A social media web-app inspired by Linkedin.
 
-For the project hosted in Railway: https://travelsdin-express-production.up.railway.app/#/
+For the project hosted in Railway: https://social-media-hazel-eta.vercel.app/#/
 
 Backend: https://github.com/shlomiNugarker/Social-Network-Backend
 
@@ -29,7 +29,8 @@ Backend: https://github.com/shlomiNugarker/Social-Network-Backend
 <a href="https://ibb.co/Nxz9NZR">
 <img src="https://i.ibb.co/mJ79y6p/pp.png" alt="pp" border="0">
 </a>
-
+<a href="https://ibb.co/chhbRtZ"><img src="https://i.ibb.co/Qvv8hnT/op.png" alt="op" border="0"></a>
+<a href="https://ibb.co/zGbQjhY"><img src="https://i.ibb.co/yW5dGn1/fb.png" alt="fb" border="0"></a>
 # Video
 
 
