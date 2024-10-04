@@ -1,0 +1,25 @@
+.main-page {
+  position: relative;
+  .map-page {
+    padding-top: 60px;
+    height: 100vh;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .main-page {
+    .map-page {
+      // background-color: lightcoral;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 90%;
+
+      margin: 0 auto;
+
+      .map {
+      }
+    }
+  }
+}

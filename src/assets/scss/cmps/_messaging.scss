@@ -1,0 +1,29 @@
+.message-page {
+  .messaging {
+    height: 100%;
+    grid-area: messaging;
+    overflow-y: hidden;
+
+    .container {
+      border-radius: 1px solid black;
+    }
+  }
+}
+@media (max-width: 630px) {
+  .messaging {
+    .container {
+      justify-content: center;
+
+      .message-thred {
+      }
+      .user-profile-details {
+        min-height: calc(100vh - 220px);
+      }
+      .message-open-style {
+      }
+    }
+  }
+
+  // .messaging .container .message-thread .user-profile-details {
+  // }
+}

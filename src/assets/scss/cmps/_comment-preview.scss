@@ -1,0 +1,124 @@
+.comment-preview {
+  margin: 10px 15px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+
+  .img-container {
+    cursor: pointer;
+    .img-profile {
+      border-radius: 50%;
+      background-color: lightskyblue;
+      width: 35px;
+      height: 35px;
+      object-fit: cover;
+    }
+  }
+
+  .container {
+    width: 100%;
+
+    margin: 0 5px;
+    min-height: 50px;
+    padding: 3px;
+
+    .comment-header {
+      background-color: #f2f2f2;
+      padding: 10px 5px;
+      border-radius: 7px;
+
+      .comment-details {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .name {
+          h3 {
+            color: black;
+          }
+          p {
+            font-size: 14px;
+          }
+        }
+
+        .dots-icon {
+          margin: 0 7px;
+          cursor: pointer;
+        }
+      }
+
+      .comment-text {
+        margin: 5px 0 0 0;
+      }
+    }
+    .comment-action {
+      background-color: white;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      margin: 5px 0;
+
+      button {
+        border: none;
+        background-color: unset;
+        margin: 0 3px;
+        padding: 5px;
+        border-radius: 3px;
+
+        &.liked {
+          color: #378fe9;
+        }
+
+        &:hover {
+          background-color: #f2f2f2;
+        }
+      }
+    }
+
+    .input-reply {
+      width: 100%;
+      display: flex;
+      align-items: center;
+
+      .img-loggedUser {
+        .img {
+          border-radius: 50%;
+          width: 30px;
+          height: 30px;
+          object-fit: cover;
+        }
+      }
+
+      .input-container {
+        width: 100%;
+        margin-left: 5px;
+        border-radius: 15px;
+        border: 1px solid $border;
+        padding: 5px;
+        input {
+          border: none;
+          width: 100%;
+          padding: 3px;
+
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+    }
+    .reply-btn {
+      padding: 5px 10px;
+      margin: 5px 3px;
+      border-radius: 15px;
+      background-color: #0a66c2;
+      color: white;
+      border: none;
+    }
+  }
+}
+
+@media (max-width: 460px) {
+  .comment-preview {
+    margin: 0;
+  }
+}

@@ -1,0 +1,99 @@
+// Externals
+
+// Setup
+@import 'setup/variables';
+@import 'setup/functions';
+@import 'setup/mixins';
+
+// Basics
+@import 'basics/typography';
+@import 'basics/base';
+@import 'basics/helpers';
+@import 'basics/layout';
+@import 'basics/modals';
+@import 'basics/animations';
+
+// Pages
+@import 'pages/about';
+@import 'pages/home';
+@import 'pages/main';
+@import 'pages/signup';
+@import 'pages/feed';
+@import 'pages/profile';
+@import 'pages/my-network';
+@import 'pages/map';
+@import 'pages/message';
+@import 'pages/notifications';
+@import 'pages/connections';
+@import 'pages/specific-post';
+
+// Components
+
+@import 'cmps/header';
+@import 'cmps/left-side-bar';
+@import 'cmps/right-side-bar';
+@import 'cmps/posts';
+@import 'cmps/input';
+@import 'cmps/nav';
+@import 'cmps/add-post';
+@import 'cmps/sort-by';
+@import 'cmps/posts-list';
+@import 'cmps/post-preview';
+@import 'cmps/post-header';
+@import 'cmps/post-body';
+@import 'cmps/social-details';
+@import 'cmps/post-actions';
+@import 'cmps/comments';
+@import 'cmps/input-comment';
+@import 'cmps/list-comments';
+@import 'cmps/comment-preview';
+@import 'cmps/feed-identity-module';
+@import 'cmps/community-panel';
+@import 'cmps/create-post-modal';
+@import 'cmps/connection-list';
+@import 'cmps/connection-preview';
+@import 'cmps/my-connection-preview';
+@import 'cmps/like-preview';
+@import 'cmps/like-list';
+@import 'cmps/reply-list';
+@import 'cmps/reply-preview';
+@import 'cmps/post-menu';
+@import 'cmps/comment-menu';
+@import 'cmps/img-profile-preview';
+@import 'cmps/edit-modal';
+@import 'cmps/messaging';
+@import 'cmps/list-msg';
+@import 'cmps/message-thread';
+@import 'cmps/msg-preview';
+@import 'cmps/thread-msg-list';
+@import 'cmps/thread-msg-preview';
+@import 'cmps/notfications-list';
+@import 'cmps/notificaiton-preview';
+@import 'cmps/user-icon-pos';
+@import 'cmps/map-menu';
+@import 'cmps/post-icon-map';
+
+.app {
+  background-color: $main-background;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  img {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+  }
+}
+
+.temp-div {
+  position: fixed;
+  background-color: rgb(82, 82, 39);
+  z-index: 4000;
+}

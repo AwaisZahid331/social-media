@@ -1,0 +1,54 @@
+.like-list {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 3px;
+  position: relative;
+  z-index: 500;
+
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px 0px 24px;
+
+    .logo-close {
+      position: absolute;
+      right: 24px;
+      cursor: pointer;
+    }
+  }
+  .all {
+    border-bottom: 1px solid $border;
+    padding-left: 24px;
+
+    p {
+      padding: 10px;
+    }
+  }
+
+  .list {
+    padding: 1.6rem 2.4rem;
+    overflow-y: auto;
+    overflow-x: auto;
+  }
+}
+
+@media (max-width: 580px) {
+  .like-list {
+    .title {
+      padding: 5px;
+      .logo-close {
+      }
+    }
+    .all {
+      padding-left: 5px;
+      p {
+        text-align: center;
+      }
+    }
+
+    .list {
+      padding: 5px;
+    }
+  }
+}

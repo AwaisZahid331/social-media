@@ -1,0 +1,233 @@
+.profile-page {
+  min-height: 100vh;
+  display: grid;
+  grid-template-areas: 'main  aside';
+  grid-template-columns: minmax(0, 17fr) minmax(300px, 7fr);
+  padding-top: 60px;
+  justify-content: space-between;
+  column-gap: 2.4em;
+  grid-area: content;
+  grid-template-rows: auto;
+  row-gap: 2.4em;
+  position: relative;
+
+  .left {
+    grid-area: main;
+
+    .user-profile {
+      border: 1px solid $border;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      .bg {
+        position: relative;
+        background-color: #a0b4b7;
+        min-height: 195px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        background-size: cover;
+
+        .img-container {
+          position: absolute;
+          left: 30px;
+          cursor: pointer;
+          .img {
+            width: 152px;
+            height: 152px;
+            border-radius: 50%;
+            background-color: lemonchiffon;
+            object-fit: cover;
+            transform: translate(0, 50%);
+          }
+        }
+      }
+
+      .user-details {
+        background-color: white;
+        padding: 60px 30px 30px 30px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+
+        div {
+          .name {
+            h1 {
+              font-size: 24px;
+            }
+          }
+          .profession {
+            p {
+              font-size: 22px;
+            }
+          }
+
+          .btns-container {
+            padding-top: 10px;
+            display: flex;
+
+            button,
+            .connect,
+            .add-details,
+            .message,
+            .follow {
+              display: flex;
+              align-items: center;
+              margin: 5px;
+              background-color: #0a66c2;
+              color: white;
+              border-radius: 20px;
+              padding: 10px 10px;
+              border: none;
+              font-size: 18px;
+
+              p {
+                margin-left: 3px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .user-posts {
+    }
+  }
+
+  .right {
+    grid-area: aside;
+
+    .top-div {
+      height: 520px;
+      background-color: white;
+      border: 1px solid $border;
+      border-radius: 10px;
+      padding: 15px;
+      margin: 0 0 10px 0;
+    }
+
+    .bottom-div {
+      height: 520px;
+      background-color: white;
+      border: 1px solid $border;
+      border-radius: 10px;
+      padding: 15px;
+      margin: 0 0 10px 0;
+    }
+  }
+}
+
+@media (max-width: 920px) {
+  .profile-page {
+    grid-template-areas: 'main';
+    grid-template-columns: minmax(0, 80%);
+    justify-content: center;
+    .left {
+      .user-profile {
+        .bg {
+          .img-container {
+            .img {
+            }
+          }
+        }
+
+        .user-details {
+          div {
+            .name {
+              h1 {
+              }
+            }
+            .profession {
+              p {
+              }
+            }
+
+            .btns-container {
+              button,
+              .connect,
+              .add-details,
+              .message,
+              .follow {
+                p {
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .user-posts {
+      }
+    }
+
+    .right {
+      display: none;
+      .top-div {
+      }
+
+      .bottom-div {
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .profile-page {
+    grid-template-columns: minmax(0, 100%);
+    .left {
+      .user-profile {
+        .bg {
+          .img-container {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, 0);
+            cursor: pointer;
+            .img {
+            }
+          }
+        }
+
+        .user-details {
+          padding: 60px 0px 30px 0px;
+          div {
+            .name {
+              text-align: center;
+              h1 {
+              }
+            }
+            .profession {
+              text-align: center;
+              p {
+              }
+            }
+
+            .btns-container {
+              justify-content: center;
+              button,
+              .connect,
+              .add-details,
+              .message,
+              .follow {
+                p {
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .user-posts {
+        div {
+          p {
+            text-align: center;
+          }
+        }
+      }
+    }
+
+    .right {
+      .top-div {
+      }
+
+      .bottom-div {
+      }
+    }
+  }
+}
