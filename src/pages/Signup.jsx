@@ -72,7 +72,7 @@ export const Signup = () => {
   return (
     <section className="sign-up-page">
       <div className="logo-container" onClick={() => history.push(`/home`)}>
-        <p>T</p>
+        <p>SP</p>
       </div>
       <div className="form-container">
         <form
